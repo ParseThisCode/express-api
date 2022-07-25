@@ -1,0 +1,40 @@
+section {
+ display: grid;
+ gap: 10px;
+ place-items: center;
+ margin: 0;
+ padding: 20px;
+}
+
+h2 {
+ font-family: sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+section > ul {
+ display: grid;
+ margin: 0;
+ padding: 0;
+ gap: 15px;
+}
+
+ul > li {
+ display: grid;
+ gap: 5px;
+ margin: 0;
+ padding: 0;
+}
+
+li > p {
+ font-family: monospace;
+ color: #fff;
+ background: #FF0C67;
+ margin: 0;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+li > span {
+ font-family: sans-serif;
+}
